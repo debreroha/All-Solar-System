@@ -1,11 +1,3 @@
-body {
-  background: #222222;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 :root {
   --earth-orbit: 25s;
   --clr-bg: #051623;
@@ -18,6 +10,14 @@ body {
   --clr-saturn: #d5b979;
   --clr-uranus: #d6fcfd;
   --clr-neptune: #00749a;
+}
+
+body {
+  background: var(--clr-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 @keyframes orbit {
